@@ -1,0 +1,21 @@
+{
+    "name": "root/lift",
+    "description": "lift test task",
+    "license": "open",
+    "authors": [
+        {
+            "name": "Vladimir"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "minimum-stability": "stable",
+    "require": {
+	  "php":">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
